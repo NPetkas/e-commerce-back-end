@@ -1,0 +1,9 @@
+{
+    // apply airbnb's eslint rules and prettier style rules
+    "extends": ["airbnb", "prettier"],
+    // include prettier plugin
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": ["error"] // treats violations of prettier as errors
+    }
+}
